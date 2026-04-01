@@ -1,0 +1,154 @@
+body {
+    font-family: Times New Roman;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+header h1 {
+    font-style: normal;
+    font-size: 42px;
+}
+
+header {
+    background: linear-gradient(#2e1a73, #4723ab);
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    padding: 7px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.hero h2 {
+    color: #132d66;
+}
+
+.card h3 {
+    color: #132d66;
+}
+
+.card {
+    font-size: 20px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow:0 4px rgba(0,0,0,0,1);
+}
+
+.card-map iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.card h2 {
+    color: #132d66;
+}
+
+.box-image {
+    width: 70%;
+    height: 350px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-image img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: all ease-in-out 0.5s;
+}
+
+.box-image img:hover {
+    width: 50%;
+}
+
+input, select, textarea {
+    display: block;
+    padding: 12px;
+    margin: 12px auto;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: Times New Roman;
+}
+
+textarea {
+    resize: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form button {
+    margin-top: 10px;
+    display: block;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    padding:  15px 30px;
+    background: linear-gradient(#4723ab, #2e1a73);
+}
+
+.nav-footer {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 7px;
+    background: linear-gradient(#4723ab, #2e1a73);
+    color: white;
+}
